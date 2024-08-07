@@ -8,13 +8,11 @@ const VideoCard = ({ title, creator, avatar, thumbnail, video }) => {
   const [play, setPlay] = useState(false);
   const [menuStatus, setMenuStatus] = useState(false);
 
-  
-
   return (
     <View className="flex flex-col items-center px-4 mb-14">
       <View className="flex flex-row gap-3 items-start relative z-10">
         <View className="flex justify-center items-center flex-row flex-1">
-          <View className="w-[46px] h-[46px] rounded-lg border border-secondary flex justify-center items-center p-0.5">
+          <View className="w-[46px] h-[46px] rounded-lg border border-red-500 flex justify-center items-center p-0.5">
             <Image
               source={{ uri: avatar }}
               className="w-full h-full rounded-lg"
@@ -24,13 +22,13 @@ const VideoCard = ({ title, creator, avatar, thumbnail, video }) => {
 
           <View className="flex justify-center flex-1 ml-3 gap-y-1">
             <Text
-              className="font-psemibold text-sm text-white"
+              className="font-psemibold text-sm text-black"
               numberOfLines={1}
             >
               {title}
             </Text>
             <Text
-              className="text-xs text-gray-100 font-pregular"
+              className="text-xs text-gray-700 font-pregular"
               numberOfLines={1}
             >
               {creator}
@@ -40,21 +38,25 @@ const VideoCard = ({ title, creator, avatar, thumbnail, video }) => {
 
         {menuStatus ? (
           <View className="first-letter:absolute top-0 right-0">
-            <TouchableOpacity 
+            <TouchableOpacity
               className="pt-2 ml-14"
               onPress={() => setMenuStatus(false)}
             >
-              <Image source={icons.menu} className="w-5 h-5" resizeMode="contain" />
+              <Image
+                source={icons.menu}
+                className="w-5 h-5"
+                resizeMode="contain"
+              />
             </TouchableOpacity>
 
-            <View className="w-20 h-20 bg-black-100 rounded-2xl border-1 ">
+            <View className="w-20 h-20 bg-white rounded-2xl border-1 ">
               <TouchableOpacity className="w-[100%] h-10 pt-2 items-center justify-center flex flex-row space-x-1">
                 <Image
                   source={icons.bookmark}
                   resizeMode="contain"
                   className="w-3 h-3"
                 />
-                <Text className="text-sm text-white ">Save</Text>
+                <Text className="text-sm text-black ">Save</Text>
               </TouchableOpacity>
 
               <TouchableOpacity className="w-[100%] h-10 pb-2 items-center justify-center flex flex-row space-x-1">
@@ -63,21 +65,22 @@ const VideoCard = ({ title, creator, avatar, thumbnail, video }) => {
                   resizeMode="contain"
                   className="w-3 h-3"
                 />
-                <Text className="text-sm text-white ">Delete</Text>
+                <Text className="text-sm text-black ">Delete</Text>
               </TouchableOpacity>
             </View>
-          </View>  
-
+          </View>
         ) : (
-              <TouchableOpacity 
-                className="pt-2 mr-1"
-                onPress={() => setMenuStatus(true)}
-              >
-                <Image source={icons.menu} className="w-5 h-5" resizeMode="contain" />
-              </TouchableOpacity>
+          <TouchableOpacity
+            className="pt-2 mr-1"
+            onPress={() => setMenuStatus(true)}
+          >
+            <Image
+              source={icons.menu}
+              className="w-5 h-5"
+              resizeMode="contain"
+            />
+          </TouchableOpacity>
         )}
-
-        
       </View>
 
       {play ? (

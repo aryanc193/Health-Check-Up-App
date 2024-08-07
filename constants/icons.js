@@ -11,6 +11,16 @@ import logout from "../assets/icons/logout.png";
 import eyeHide from "../assets/icons/eye-hide.png";
 import eye from "../assets/icons/eye.png";
 import play from "../assets/icons/play.png";
+import premium from "../assets/icons/premium.png";
+import medicine from "../assets/icons/medicine.png";
+import insurance from "../assets/icons/insurance.png";
+import yearly from "../assets/icons/yearly.png";
+import pin from "../assets/icons/pin.png";
+import checkmark from "../assets/icons/checkmark.png";
+import empanelHospitalsIcon from "../assets/icons/empanel-hospitals-icon.png";
+import networkHospitalsIcon from "../assets/icons/network-hospitals-icon.png";
+import claimsIcon from "../assets/icons/claims-icon.png";
+import eCardIcon from "../assets/icons/e-card-icon.png";
 
 export default {
   play,
@@ -26,4 +36,14 @@ export default {
   logout,
   eyeHide,
   eye,
+  premium,
+  medicine,
+  insurance,
+  yearly,
+  pin,
+  checkmark,
+  eCardIcon,
+  claimsIcon,
+  empanelHospitalsIcon,
+  networkHospitalsIcon,
 };

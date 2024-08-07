@@ -12,10 +12,10 @@ const EmptyState = ({ title, subtitle, buttontitle, buttonlinkedpage }) => {
         className="w-[270px] h-[215px]"
         resizeMode="contain"
       />
-      <Text className="font-psemibold text-center text-xl text-white mt-2">
+      <Text className="font-psemibold text-center text-xl text-black mt-2">
         {title}
       </Text>
-      <Text className="font-pmedium text-sm text-gray-100">{subtitle}</Text>
+      <Text className="font-pmedium text-sm text-gray-700">{subtitle}</Text>
     </View>
   );
 };
