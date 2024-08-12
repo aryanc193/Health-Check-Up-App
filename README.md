@@ -4,21 +4,22 @@ Follow these steps to set up the project locally on your machine.
 <details>
   <summary>Click to view screenshots</summary>
   
-  ![Screenshot1](/ScreenShots/1.jpg)
-  ![Screenshot2](/ScreenShots/2.jpg)
-  ![Screenshot3](/ScreenShots/3.jpg)
-  ![Screenshot4](/ScreenShots/4.jpg)
-  ![Screenshot5](/ScreenShots/5.jpg)
-  ![Screenshot6](/ScreenShots/6.jpg)
-  ![Screenshot7](/ScreenShots/7.jpg)
-  ![Screenshot8](/ScreenShots/8.jpg)
-  ![Screenshot9](/ScreenShots/9.jpg)
-  ![Screenshot10](/ScreenShots/10.jpg)
-  ![Screenshot11](/ScreenShots/11.jpg)
-  ![Screenshot12](/ScreenShots/12.jpg)
-  ![Screenshot13](/ScreenShots/13.jpg)
+  <img src="/ScreenShots/1.jpg" alt="Screenshot1" width="400"/>
+  <img src="/ScreenShots/2.jpg" alt="Screenshot2" width="400"/>
+  <img src="/ScreenShots/3.jpg" alt="Screenshot3" width="400"/>
+  <img src="/ScreenShots/4.jpg" alt="Screenshot4" width="400"/>
+  <img src="/ScreenShots/5.jpg" alt="Screenshot5" width="400"/>
+  <img src="/ScreenShots/6.jpg" alt="Screenshot6" width="400"/>
+  <img src="/ScreenShots/7.jpg" alt="Screenshot7" width="400"/>
+  <img src="/ScreenShots/8.jpg" alt="Screenshot8" width="400"/>
+  <img src="/ScreenShots/9.jpg" alt="Screenshot9" width="400"/>
+  <img src="/ScreenShots/10.jpg" alt="Screenshot10" width="400"/>
+  <img src="/ScreenShots/11.jpg" alt="Screenshot11" width="400"/>
+  <img src="/ScreenShots/12.jpg" alt="Screenshot12" width="400"/>
+  <img src="/ScreenShots/13.jpg" alt="Screenshot13" width="400"/>
 
 </details>
+
 
 **Prerequisites**
 
