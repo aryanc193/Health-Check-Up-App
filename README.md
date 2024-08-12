@@ -4,7 +4,19 @@ Follow these steps to set up the project locally on your machine.
 <details>
   <summary>Click to view screenshots</summary>
   
-  ![Screenshot1](https://drive.google.com/file/d/13iR8sklSr7PcRkEGPu62NgBb4IaHTyTM/view)
+  ![Screenshot1](/ScreenShots/1.jpg)
+  ![Screenshot2](/ScreenShots/2.jpg)
+  ![Screenshot3](/ScreenShots/3.jpg)
+  ![Screenshot4](/ScreenShots/4.jpg)
+  ![Screenshot5](/ScreenShots/5.jpg)
+  ![Screenshot6](/ScreenShots/6.jpg)
+  ![Screenshot7](/ScreenShots/7.jpg)
+  ![Screenshot8](/ScreenShots/8.jpg)
+  ![Screenshot9](/ScreenShots/9.jpg)
+  ![Screenshot10](/ScreenShots/10.jpg)
+  ![Screenshot11](/ScreenShots/11.jpg)
+  ![Screenshot12](/ScreenShots/12.jpg)
+  ![Screenshot13](/ScreenShots/13.jpg)
 
 </details>
 
