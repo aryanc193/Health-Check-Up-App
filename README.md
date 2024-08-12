@@ -16,7 +16,6 @@ Follow these steps to set up the project locally on your machine.
   <img src="/ScreenShots/10.jpg" alt="Screenshot10" width="200"/>
   <img src="/ScreenShots/11.jpg" alt="Screenshot11" width="200"/>
   <img src="/ScreenShots/12.jpg" alt="Screenshot12" width="200"/>
-  <img src="/ScreenShots/13.jpg" alt="Screenshot13" width="200"/>
 
 </details>
 
